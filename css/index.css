@@ -1,0 +1,482 @@
+
+body {
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    justify-content: center;
+
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+.welcom {
+  position: absolute;
+  top: 30px;
+  left: 16px;
+}
+
+.iubpotal {
+  position: absolute;
+  top: 30px;
+  left: 16px;
+	font-size: 15px;
+}
+
+.verion {
+  position: absolute;
+  top: 90px;
+  left: 16px;
+	font-size: 11px;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  right: 16px;
+}
+
+
+.cardese {
+	position: absolute;
+  	top: 130px;
+  	left: 30px;	
+	height: 40px;
+	width: 290px;
+	background-color: white;
+		
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* ---------------------- */
+
+
+
+/* ---------------------- */
+
+.btn1 {
+    cursor: pointer;
+    border: 1px solid rgba(0, 46, 96);;
+    background-color: rgba(0, 46, 96);;
+    width: 80px;
+	height: 25px;
+	color: #FFFFFF;
+    font-size: 11;
+        }
+
+.card1 {
+	position: absolute;
+  	top: 136px;
+  	left: 40px;
+	width: 80px;
+	height: 25px;
+	margin: auto;
+	background-color: rgba(0, 46, 96);
+  	box-shadow: 0 4px 8px 0 rgba(247, 218, 158);
+  	transition: 0.3s;
+
+}
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(245, 180, 45);
+}
+
+
+
+
+
+.card2 {
+	position: absolute;
+  	top: 136px;
+  	left: 135px;
+	width: 80px;
+	height: 25px;
+	margin: auto;
+	background-color: rgba(0, 46, 96);
+  	box-shadow: 0 4px 8px 0 rgba(247, 218, 158);
+  	transition: 0.3s;
+
+}
+
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(245, 180, 45);
+}
+
+.card3 {
+	position: absolute;
+  	top: 136px;
+  	left: 230px;
+	width: 80px;
+	height: 25px;
+	margin: auto;
+	background-color: rgba(0, 46, 96);
+  	box-shadow: 0 4px 8px 0 rgba(247, 218, 158);
+  	transition: 0.3s;
+
+}
+
+.card3:hover {
+  box-shadow: 0 8px 16px 0 rgba(245, 180, 45);
+}
+
+
+/* ---------------------- */
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid rgba(0, 46, 96);
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 50px 0 0 50px;
+  outline: none;
+  color: rgba(0, 46, 96);
+}
+
+.searchTerm:focus{
+  color: rgba(0, 46, 96);
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid rgba(0, 46, 96);
+  background: rgba(0, 46, 96);
+  text-align: center;
+  color: #fff;
+  border-radius: 0 50px 50px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap{
+  width: 300px;
+  position: absolute;
+  top: 190px;
+  left: 32px;
+  transform: translate(0%, 0%);
+}
+
+
+/* ---------------------- */
+
+
+
+
+/* (PART A) SHOW SELECTED SLIDE ONLY */
+.slides input[type="radio"] { display: none; }
+.slides figure {
+  visibility: hidden; opacity: 0;
+  transition: all 0.9s;
+}
+.slides input[type="radio"]:checked + figure {
+  visibility: visible; opacity: 1;
+}
+
+/* (PART B) SLIDES WRAPPER & SHARED*/
+.slides {
+  position: static;
+  width: 300px; height: 100px;
+}
+.slides img, .slides figcaption, .slides label {
+  position: absolute;
+}
+.slides label, .slides figcaption {
+  color: #fff; background: rgba(0, 0, 0, 0.7);
+}
+
+/* (PART C) SLIDE IMAGES */
+.slides img {
+  top: 230px; left: 80px;
+  width: 200px; height: 100px; object-fit: contain;
+}
+
+
+/* (PART E) LAST & NEXT BUTTONS */
+.slides label {
+  top: 320px; transform: translateY(-50px); 
+  display: flex; align-items: center; justify-content: center;
+  width: 20px; height: 20px; border-radius: 50%;
+  font-size: 0.5em; cursor: pointer;
+}
+.slides label.last { left: 10px; }
+.slides label.next { right: 10px; }
+
+
+
+
+.container1 {
+	top: 50px;
+  position: relative;
+  color: white;
+}
+
+
+.container11 {
+	top: 110px;
+  position: relative;
+  text-align: center;
+}
+
+
+
+
+.container2 {
+	top: 160px;
+  position: relative;
+  color: white;
+}
+
+
+.container22 {
+	top: 220px;
+  position: relative;
+  text-align: center;
+}
+
+.container3 {
+	top: 270px;
+  position: relative;
+  color: white;
+}
+
+
+.container33 {
+	top: 330px;
+  position: relative;
+  text-align: center;
+}
+
+
+
+.container4 {
+	top: 380px;
+  position: relative;
+  color: white;
+}
+
+
+.container44 {
+	top: 440px;
+  position: relative;
+  text-align: center;
+}
+
+
+
+.container5 {
+	top: 480px;
+  position: relative;
+  color: white;
+}
+
+
+.container55 {
+	top: 540px;
+  position: relative;
+  text-align: center;
+}
+
+
+
+.container6 {
+	top: 580px;
+  position: relative;
+  color: white;
+}
+
+
+.container66 {
+	top: 640px;
+  position: relative;
+  text-align: center;
+}
+
+.containerh {
+	top: 650px;
+  position: relative;
+  color: white;
+}
+
+
+.containerhh {
+	top: 710px;
+  position: relative;
+  text-align: center;
+}
+
+
+/* buttone icons */
+.imgB {
+	height: 40px;
+	width: 40px;
+	
+}
+
+
+/* buttones */
+
+.btn2 {
+    cursor: pointer;
+    border: 1px solid rgba(0, 46, 96);;
+    background-color: rgba(255,255,255);;
+    width: 70px;
+	height: 70px;
+	border-radius: 10px;
+	color: #FFFFFF;
+    font-size: 11;
+        }
+
+.card11 {
+	position: absolute;
+	border-radius: 10px;
+  	top: 0px;
+  	left: 10px;
+	width: 70px;
+	height: 70px;
+	margin: auto;
+	
+	background-color: rgba(255,255,255);
+  	box-shadow: 0 4px 8px 0 rgba(247, 218, 158);
+  	transition: 0.3s;
+
+}
+
+.card11:hover {
+	border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(245, 180, 45);
+}
+
+
+
+
+
+.card22 {
+	position: absolute;
+  	top: 0px;
+  	left: 130px;
+	border-radius: 10px;
+	width: 70px;
+	height: 70px;
+	margin: auto;
+	background-color: rgba(255,255,255);
+  	box-shadow: 0 4px 8px 0 rgba(247, 218, 158);
+  	transition: 0.3s;
+
+}
+
+.card22:hover {
+	border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(245, 180, 45);
+}
+
+.card33 {
+	position: absolute;
+	border-radius: 10px;
+  	top: 0px;
+  	left: 250px;
+	width: 70px;
+	height: 70px;
+	margin: auto;
+	background-color: rgba(255,255,255);
+  	box-shadow: 0 4px 8px 0 rgba(247, 218, 158);
+  	transition: 0.3s;
+
+}
+
+.card33:hover {
+	border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(245, 180, 45);
+}
+
+
+/* buttones text */
+
+
+.card111 {
+	position: absolute;
+  	top: 0px;
+  	left: 10px;
+	width: 80px;
+	height: 0px;
+	margin: auto;
+}
+
+
+.card222 {
+	position: absolute;
+  	top: 0px;
+  	left: 130px;
+	width: 80px;
+	height: 0px;
+	margin: auto;
+}
+
+
+.card333 {
+	position: absolute;
+  	top: 0px;
+  	left: 250px;
+	width: 80px;
+	height: 25px;
+	margin: auto;
+}
+
+
+/* ---------------------- */
+
+
+/* (PART A) SHOW SELECTED SLIDE ONLY */
+.slidesA input[type="radio"] { display: none; }
+.slidesA figure {
+  visibility: hidden; opacity: 0;
+  transition: all 0.9s;
+}
+.slidesA input[type="radio"]:checked + figure {
+  visibility: visible; opacity: 1;
+}
+
+/* (PART B) SLIDES WRAPPER & SHARED*/
+.slidesA {
+  position: static;
+  width: 300px; height: 100px;
+}
+.slidesA img, .slidesA figcaption, .slidesA label {
+  position: absolute;
+}
+.slidesA label, .slidesA figcaption {
+  color: #fff; background: rgba(0, 0, 0, 0.7);
+}
+
+/* (PART C) SLIDE IMAGES */
+.slidesA img {
+  top: 950px; left: 80px;
+  width: 200px; height: 100px; object-fit: contain;
+}
+
+
+/* (PART E) LAST & NEXT BUTTONS */
+.slidesA label {
+  top: 1040px; transform: translateY(-50px); 
+  display: flex; align-items: center; justify-content: center;
+  width: 20px; height: 20px; border-radius: 50%;
+  font-size: 0.5em; cursor: pointer;
+}
+.slidesA label.last { left: 10px; }
+.slidesA label.next { right: 10px; }
+
+
+
